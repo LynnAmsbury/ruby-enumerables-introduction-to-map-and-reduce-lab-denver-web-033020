@@ -59,6 +59,17 @@ def reduce_to_all_true(source_array)
   true
 end
 
+def reduce_to_any_true(source_array)
+  i = 0
+  while i < source_array.length do
+    if (source_array[i] == false)
+      return false
+    end
+    i += 1
+  end
+  true
+end
+
 def i_hear_a_sick_sound(passengers_sounds)
   i = 0 # set up a i for the enumeration of the passengers collection
   while i < passengers_sounds.length do # a loop for each passenger
