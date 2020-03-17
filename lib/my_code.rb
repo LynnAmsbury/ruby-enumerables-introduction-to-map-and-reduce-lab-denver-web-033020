@@ -52,7 +52,7 @@ def reduce_to_all_true(source_array)
   i = 0
   while i < source_array.length do
     if (source_array[i] == true)
-      
+
     end
     i += 1
   end
@@ -71,7 +71,7 @@ def i_hear_a_sick_sound(passengers_sounds)
   end
   return false
 end
- 
+
 i_hear_a_sick_sound(["coughing", "foo", "bar", "bin", "bat"]) #=> true
 i_hear_a_sick_sound(["sneezing", "foo", "bar", "bin", "bat"]) #=> true
 i_hear_a_sick_sound([            "foo", "bar", "bin", "bat"]) #=> false
